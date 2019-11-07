@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+ #nav a {
+       background: white;
+       height: 28px;
+       width: 130px;
+       font-family: "Book Antiqua";
+       font-size: 20px;
+       text-align: center;
+       color: #C60;
+       text-decoration: none;
+       background-position: left;
+       margin: auto;
+       display: inline-block;
+       position: relative;
+   }
+
+   .wrapper {
+  background: #ffd700;
+  opacity: 0.8;
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,.3);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+  margin: 10px auto;
+  max-width: 700px;
+  padding: 1.25%; /* 18px / 800px */
+  width: 85%;
+  text-align: center;
+  image-orientation: center;
+}
