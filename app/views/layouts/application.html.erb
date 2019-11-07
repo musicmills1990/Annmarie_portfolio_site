@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PortfolioSite</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div id="nav">
+        <a class="navbar-brand" href="/about"/>About</a>
+        <a class="navbar-brand" href="/portfolio"/>Portfolio</a>
+        <a class="navbar-brand" href="/contact"/>Contact</a>
+        </div>
+
+        <div class="wrapper">
+        <h1>Ann Marie Lupo</h1>
+          <h3>Professional designer</h3>
+        </div>
+
+      <%= yield %>
+  </body>
+</html>
+</html>
